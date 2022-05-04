@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100;200&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+
+body {
+  background-color: #F6F9FC;
+  font-family: 'Open Sans', sans-serif;
+  color: #4c4d4d;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.09);
+  margin: 40px auto;
+}
+
+h1, h2 {
+  font-family: 'Rubik', sans-serif;
+  color: #235f63;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+}
+
+a {
+  color: #ff6f69;
+}
+
+a:hover {
+  color: #74322f;
+}
+
+.button-classic {
+  background-color: #cb5854;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.button-classic:hover {
+  background-color: #32888E;
+  color: white;
+}
+
+.list-socials {
+  list-style: none;
+  font-size: 48px;
+  padding-left: 0px;
+  margin: auto;
+  width: 180px;
+}
+
+.list-socials > li {
+  display: inline-block;
+  padding: 0px 5px;
+  margin: auto;
+}
+
+#profile-pic {
+  border-radius: 50px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
